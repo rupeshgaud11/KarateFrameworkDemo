@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+      .vis-item.failed { background-color: #F2928C; }
+      .page-heading { padding: 0.5em; margin-bottom: 0.5em; background-color: lightcyan; border: 1px solid gray; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="page-heading">
+      <a href="karate-summary.html">Summary</a>
+    </div>     
+    <div id="visualization"></div>
+    <script>
+var groups = [{"content":"main","id":1}];
+var items = [{"id":1,"group":1,"content":"features\/UpdateProject[1:9]","start":1671125436693,"end":1671125437889,"title":"features\/UpdateProject[1:9] 23:00:36.693-23:00:37.889 Update Project","className":"failed"},{"id":2,"group":1,"content":"features\/CreateProject[1:14]","start":1671125430201,"end":1671125432286,"title":"features\/CreateProject[1:14] 23:00:30.201-23:00:32.286 Create project","className":"failed"},{"id":3,"group":1,"content":"features\/GetProductInfo[1:15]","start":1671125435199,"end":1671125436234,"title":"features\/GetProductInfo[1:15] 23:00:35.199-23:00:36.234 Get Luminaire Information","className":"failed"}];
+</script>
+    <script>
+      var container = document.getElementById('visualization');
+      var timeline = new vis.Timeline(container);
+      timeline.setOptions({groupOrder: 'content'});
+      timeline.setGroups(new vis.DataSet(groups));
+      timeline.setItems(new vis.DataSet(items));
+    </script>
+  </body>
+</html>

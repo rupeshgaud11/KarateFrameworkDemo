@@ -1,0 +1,15 @@
+{
+   "name":"Collage5",
+   "country":"India",
+   "city":"Bangalore",
+   "timezone":[
+      "Asia/Kolkata"
+   ],
+   "startDate":"2022-12-13T17:21:35.793Z",
+   "endDate":"2022-12-18T17:21:35.793Z",
+   "description":"installation",
+   "assetQuantity":1,
+   "installers":[
+      "om.mishra1@signify.com"
+   ]
+}
