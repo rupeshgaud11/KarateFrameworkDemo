@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>features.GetProductInfo</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">1</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2022-12-16 03:16:24 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:18]"><span>[1:18]</span> <span>Get Luminaire Information</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">features/GetProductInfo.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Product Information Feature</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:18]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                <a class="badge badge-primary" href="karate-tags.html">First</a>
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:18]</span>
+                <span class="scenario-name">Get Luminaire Information</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>2260</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:18]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># CALLING BEFORE SCENARIO: DATA INSERTION</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def beforeScenario = callonce read(&#39;file:src/test/java/hooksFeatures/before-scenario.feature@productInfo&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">58</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">15:16:22.460 &lt;&lt; lock released, cached callonce: read(&#39;file:src/test/java/hooksFeatures/before-scenario.feature@productInfo&#39;)
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.9.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">src.test.java.hooksFeatures.before-scenario</div>
+      </div>
+      <div class="time-cell passed">6</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.9.0.call">
+    <div class="step-container" id="0.9.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;Required data inserted successfully&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9.0.call.0.10">15:16:22.398 Environment selected is -  Test 
+15:16:22.421 &gt;&gt; lock acquired, begin callonce: read(&#39;file:src/test/java/hooksFeatures/before-scenario.feature@productInfo&#39;)
+15:16:22.451 [print] Required data inserted successfully 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># CALLING AFTER SCENARIO: DATA DELETION AFTER SCENARIO</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref bg-step">12</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure afterScenario = function() { karate.call(&#39;file:src/test/java/hooksFeatures/after-scenario.feature@productInfo&#39;) }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:18]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># CALLING AFTER FEATURE: DATA DELETION</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>configure afterFeature = function() { karate.call(&#39;file:src/test/java/hooksFeatures/after-feature.feature@productInfo&#39;) }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.20">
+      <div class="step-ref passed">20</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url baseUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.21">
+      <div class="step-ref passed">21</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>path productInfo_tag1</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.23">
+      <div class="step-ref passed">23</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>header Authorization = token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.24">
+      <div class="step-ref passed">24</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>param key = apikey</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.25">
+      <div class="step-ref passed">25</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print &#39;sending request&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.25">15:16:22.473 [print] sending request 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref passed">27</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method GET</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2138</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print &#39;getting response\n&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">28</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.30">15:16:24.640 [print] getting response
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>print response</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.31">15:16:24.647 [print] {
+  &quot;luminaire&quot;: {
+    &quot;PRODUCT&quot;: {
+      &quot;productName&quot;: &quot;Sunstay Pro&quot;,
+      &quot;configurationDesignation&quot;: &quot;VGP725 HYB 30mA 740 PSU SRT SRB&quot;,
+      &quot;luminaireColor&quot;: &quot;DGR&quot;,
+      &quot;lightColor&quot;: 4000,
+      &quot;optics&quot;: &quot;M65&quot;,
+      &quot;numberOfLeds&quot;: 32,
+      &quot;systemPower&quot;: 25,
+      &quot;electricalSafetyClass&quot;: &quot;III&quot;,
+      &quot;colorRenderingIndex&quot;: 70,
+      &quot;maxAmbientTemperatureRating&quot;: 50,
+      &quot;brandName&quot;: &quot;Philips&quot;,
+      &quot;productFamily&quot;: &quot;VGP725&quot;,
+      &quot;time&quot;: &quot;2022-07-06&quot;,
+      &quot;salesOrderNumber&quot;: &quot;0007814000&quot;,
+      &quot;material&quot;: &quot;000823090509142&quot;,
+      &quot;spigotType&quot;: &quot;60S&quot;,
+      &quot;driverType&quot;: &quot;PSU&quot;,
+      &quot;systemLumen&quot;: 2000,
+      &quot;sourceLumen&quot;: 2000,
+      &quot;ltuneCode&quot;: &quot;8VFXOPESBABT&quot;,
+      &quot;lumenPerWatt&quot;: 80,
+      &quot;avgSystemPower&quot;: 25,
+      &quot;endSystemPower&quot;: 25,
+      &quot;pONumber&quot;: &quot;David Príncipe PILOT SUNSTAY&quot;,
+      &quot;purchaseOrderNo&quot;: &quot;PILOT SUNSTAY GEN2&quot;,
+      &quot;additionalLabels&quot;: [
+      ],
+      &quot;salesOrderItem&quot;: &quot;000030&quot;,
+      &quot;impactStrength&quot;: &quot;IK09&quot;,
+      &quot;ingressProtectionCode&quot;: &quot;IP65&quot;,
+      &quot;driverDimmingInterface&quot;: &quot;None&quot;,
+      &quot;luminaireTechnology&quot;: &quot;LED&quot;,
+      &quot;lightSourceColor&quot;: &quot;White&quot;,
+      &quot;lifetimeHours&quot;: 100000,
+      &quot;minDimmingPercentage&quot;: 10
+    },
+    &quot;DOCUMENT&quot;: [
+    ],
+    &quot;PRODUCTIMG&quot;: {
+      &quot;src&quot;: &quot;/app/assets/img/default.png&quot;
+    },
+    &quot;EXPLVIEWIMG&quot;: {
+      &quot;src&quot;: &quot;/app/assets/img/default.png&quot;
+    }
+  },
+  &quot;registration&quot;: {
+    &quot;registered&quot;: true,
+    &quot;location&quot;: {
+      &quot;latitude&quot;: 13.0453725,
+      &quot;longitude&quot;: 77.6218462
+    },
+    &quot;firstRegistration&quot;: &quot;2022-11-29&quot;,
+    &quot;firstRegisteredBy&quot;: &quot;api&quot;,
+    &quot;projectId&quot;: &quot;d55135d7-6b73-4750-a213-1489438d0834&quot;,
+    &quot;projectName&quot;: &quot;pro 36&quot;
+  },
+  &quot;group&quot;: {
+    &quot;groupId&quot;: &quot;GRP.-NIarW3BDqzl6XMOQDvn&quot;,
+    &quot;groupName&quot;: &quot;group Android edited&quot;
+  },
+  &quot;notes&quot;: [
+    {
+      &quot;id&quot;: &quot;a3834750-6c95-11ed-991b-55be8cfe1a61&quot;,
+      &quot;text&quot;: &quot;dummy&quot;,
+      &quot;lastModified&quot;: &quot;2022-11-25T07:49:06Z&quot;
+    },
+    {
+      &quot;id&quot;: &quot;8e953810-7c82-11ed-a9b2-d581beb5cc8d&quot;,
+      &quot;text&quot;: &quot;installation in progress &quot;,
+      &quot;lastModified&quot;: &quot;2022-12-15T14:12:49Z&quot;
+    },
+    {
+      &quot;id&quot;: &quot;97e3e100-7c82-11ed-9b03-a1d0e5600f75&quot;,
+      &quot;text&quot;: &quot;installation done&quot;,
+      &quot;lastModified&quot;: &quot;2022-12-15T14:13:05Z&quot;
+    }
+  ],
+  &quot;photos&quot;: [
+    {
+      &quot;id&quot;: &quot;ef4bd5c0-70a6-11ed-a85a-8b13b14c5023&quot;,
+      &quot;link&quot;: &quot;/servicetag/A538.130196889.0008/photos/ef4bd5c0-70a6-11ed-a85a-8b13b14c5023.jpg&quot;,
+      &quot;created&quot;: &quot;2022-11-30T12:03:00Z&quot;,
+      &quot;thumbnailLink&quot;: &quot;/servicetag/A538.130196889.0008/photos/ef4bd5c0-70a6-11ed-a85a-8b13b14c5023_th.jpg&quot;
+    }
+  ],
+  &quot;driverConfigurable&quot;: false,
+  &quot;entitled&quot;: true,
+  &quot;luminaireId&quot;: &quot;123&quot;,
+  &quot;deviceInfos&quot;: [
+    {
+      &quot;DeviceName&quot;: &quot;ZJS425 CCC BLE IND LED SOLAR MODULE EX&quot;,
+      &quot;DeviceVersion&quot;: null,
+      &quot;HardwareVersion&quot;: null,
+      &quot;FirmwareRevision&quot;: null,
+      &quot;Type&quot;: &quot;BLE&quot;,
+      &quot;TwelveNc&quot;: &quot;919515898385&quot;,
+      &quot;DeviceIdentifier&quot;: &quot;E6:89:4E:62:F4:A7&quot;
+    }
+  ],
+  &quot;drivers&quot;: {
+    &quot;deviceIdentifier&quot;: &quot;&quot;,
+    &quot;driverName&quot;: &quot;&quot;,
+    &quot;driver12NC&quot;: &quot;&quot;
+  },
+  &quot;sunStayConfig&quot;: {
+    &quot;PIRSensorPresent&quot;: false,
+    &quot;PIRSensorDelayTime&quot;: 45,
+    &quot;material&quot;: &quot;000823090509142&quot;,
+    &quot;RTEActive&quot;: true,
+    &quot;duskLevel&quot;: 12,
+    &quot;operation&quot;: &quot;SolarBLEConfiguration&quot;,
+    &quot;BLETwelveNc&quot;: &quot;919515898385&quot;,
+    &quot;batteryType&quot;: 2,
+    &quot;hybridActive&quot;: false,
+    &quot;BLEDeviceName&quot;: &quot;ZJS425 CCC BLE IND LED SOLAR MODULE EX&quot;,
+    &quot;systemWattage&quot;: 9,
+    &quot;dimmingProfile&quot;: [
+      {
+        &quot;dimmingLevel&quot;: 15,
+        &quot;noMotionLevel&quot;: 20,
+        &quot;duration&quot;: 390
+      },
+      {
+        &quot;dimmingLevel&quot;: 85,
+        &quot;noMotionLevel&quot;: 61,
+        &quot;duration&quot;: 630
+      },
+      {
+        &quot;dimmingLevel&quot;: 72,
+        &quot;noMotionLevel&quot;: 42,
+        &quot;duration&quot;: 1440
+      },
+      {
+        &quot;dimmingLevel&quot;: 41,
+        &quot;noMotionLevel&quot;: 17,
+        &quot;duration&quot;: 5
+      },
+      {
+        &quot;dimmingLevel&quot;: 49,
+        &quot;noMotionLevel&quot;: 16,
+        &quot;duration&quot;: 5
+      }
+    ],
+    &quot;RTENumberOfDays&quot;: 4,
+    &quot;batteryCapacity&quot;: 18,
+    &quot;LEDStringVoltage&quot;: 45.2,
+    &quot;duskDawnHysteresis&quot;: 2,
+    &quot;RTETriggerPercentage&quot;: 73,
+    &quot;batteryNominalVoltage&quot;: 25,
+    &quot;batteryDisconnectLevel&quot;: 23,
+    &quot;batteryTypeDescription&quot;: &quot;LFP&quot;,
+    &quot;macAddress&quot;: &quot;E6:89:4E:62:F4:A7&quot;,
+    &quot;isHybridAvailable&quot;: false
+  },
+  &quot;d4i&quot;: {
+    &quot;gtin&quot;: &quot;8718696906774&quot;,
+    &quot;contentFormatId&quot;: 3,
+    &quot;productionDateYY&quot;: 22,
+    &quot;productionDateWW&quot;: 26,
+    &quot;devicetag&quot;: &quot;Philips VGP725;IAA538.130196889.0008&quot;,
+    &quot;luminaireColor&quot;: &quot;DGR&quot;,
+    &quot;nominalMaximumACMainsVoltage&quot;: null,
+    &quot;nominalMinimumACMainsVoltage&quot;: null,
+    &quot;systemLumen&quot;: 2000,
+    &quot;systemPower&quot;: 25,
+    &quot;colorRenderingIndex&quot;: 70,
+    &quot;lightColor&quot;: 4000
+  },
+  &quot;servicetag&quot;: &quot;A538.130196889.0008&quot;,
+  &quot;ref&quot;: {
+    &quot;type&quot;: &quot;urn:services:signify:com:servicetag:luminaire&quot;,
+    &quot;link&quot;: &quot;/api/servicetag/v18.1/luminaires/A538.130196889.0008&quot;
+  }
+}
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;\n&#39; + response.luminaire.PRODUCT.brandName</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.32">15:16:24.655 [print] 
+Philips 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def brandName = response.luminaire.PRODUCT.brandName</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.34">
+      <div class="step-ref passed">34</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match brandName == &#39;Philips&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">3</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.35">
+      <div class="step-ref passed">35</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response.notes</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.35">15:16:24.662 [print] [
+  {
+    &quot;id&quot;: &quot;a3834750-6c95-11ed-991b-55be8cfe1a61&quot;,
+    &quot;text&quot;: &quot;dummy&quot;,
+    &quot;lastModified&quot;: &quot;2022-11-25T07:49:06Z&quot;
+  },
+  {
+    &quot;id&quot;: &quot;8e953810-7c82-11ed-a9b2-d581beb5cc8d&quot;,
+    &quot;text&quot;: &quot;installation in progress &quot;,
+    &quot;lastModified&quot;: &quot;2022-12-15T14:12:49Z&quot;
+  },
+  {
+    &quot;id&quot;: &quot;97e3e100-7c82-11ed-9b03-a1d0e5600f75&quot;,
+    &quot;text&quot;: &quot;installation done&quot;,
+    &quot;lastModified&quot;: &quot;2022-12-15T14:13:05Z&quot;
+  }
+]
+ 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.36">
+      <div class="step-ref passed">36</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>print response.notes[0].text</span>
+      </div>
+    </div>
+    <div class="time-cell passed">4</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.36">15:16:24.666 [print] dummy 
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match $.notes[0].text == &#39;dummy&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match $.notes[*].text == [&#39;dummy&#39;, &#39;installation in progress &#39;, &#39;installation done&#39;]</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.38.0.call">
+        <div class="step-ref passed">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">src.test.java.hooksFeatures.after-scenario</div>
+      </div>
+      <div class="time-cell passed">12</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.38.0.call">
+    <div class="step-container" id="0.38.0.call.0.10">
+      <div class="step-ref passed">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &#39;Cleaning DB records after execution of product info scenario&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.38.0.call.0.10">15:16:24.759 [print] Cleaning DB records after execution of product info scenario 
+</div>   
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

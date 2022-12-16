@@ -9437,3 +9437,691 @@ Request Body :-
 }
  
 15:16:27.496 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:features/UpdateProject.feature
+15:21:12.161 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': Test
+15:21:13.054 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1671184273053
+15:21:14.148 [main] INFO  com.intuit.karate - Environment selected is -  Test 
+15:21:14.282 [main] INFO  com.intuit.karate - [print] 
+Request Body :- 
+15:21:14.288 [main] INFO  com.intuit.karate - [print] {
+  "name": "Collage5407",
+  "country": "India",
+  "city": "Bangalore",
+  "timezone": [
+    "Asia/Kolkata"
+  ],
+  "startDate": "2022-12-13T17:21:35.793Z",
+  "endDate": "2022-12-18T17:21:35.793Z",
+  "description": "installation",
+  "assetQuantity": 1,
+  "installers": [
+    "om.mishra1@signify.com"
+  ]
+}
+ 
+15:21:15.950 [main] INFO  com.intuit.karate - [print] 
+ Response :-  
+15:21:15.953 [main] INFO  com.intuit.karate - [print] {
+  "id": "5aa6c226-d7b5-4793-ac59-d92b5ee20026",
+  "name": "Collage5407",
+  "country": "India",
+  "city": "Bangalore",
+  "timezone": "{\"Asia/Kolkata\"}",
+  "startDate": "2022-12-13T17:21:35.793Z",
+  "endDate": "2022-12-18T17:21:35.793Z",
+  "description": "installation",
+  "totalQuantity": 1,
+  "installedQuantity": 0,
+  "installers": [
+    "om.mishra1@signify.com"
+  ],
+  "creator": "rupesh.gaud@signify.com"
+}
+ 
+15:21:19.083 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:features/CreateProject.feature
+15:21:19.130 [main] INFO  com.intuit.karate - Environment selected is -  Test 
+15:21:19.153 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('file:src/test/java/hooksFeatures/before-scenario.feature@productInfo')
+15:21:19.155 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/hooksFeatures/before-scenario.feature - call by tag at line 8: productInfo
+15:21:19.170 [main] INFO  com.intuit.karate - [print] Required data inserted successfully 
+15:21:19.175 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('file:src/test/java/hooksFeatures/before-scenario.feature@productInfo')
+15:21:19.182 [main] INFO  com.intuit.karate - [print] sending request 
+15:21:21.244 [main] INFO  com.intuit.karate - [print] getting response
+ 
+15:21:21.246 [main] INFO  com.intuit.karate - [print] {
+  "luminaire": {
+    "PRODUCT": {
+      "productName": "Sunstay Pro",
+      "configurationDesignation": "VGP725 HYB 30mA 740 PSU SRT SRB",
+      "luminaireColor": "DGR",
+      "lightColor": 4000,
+      "optics": "M65",
+      "numberOfLeds": 32,
+      "systemPower": 25,
+      "electricalSafetyClass": "III",
+      "colorRenderingIndex": 70,
+      "maxAmbientTemperatureRating": 50,
+      "brandName": "Philips",
+      "productFamily": "VGP725",
+      "time": "2022-07-06",
+      "salesOrderNumber": "0007814000",
+      "material": "000823090509142",
+      "spigotType": "60S",
+      "driverType": "PSU",
+      "systemLumen": 2000,
+      "sourceLumen": 2000,
+      "ltuneCode": "8VFXOPESBABT",
+      "lumenPerWatt": 80,
+      "avgSystemPower": 25,
+      "endSystemPower": 25,
+      "pONumber": "David Príncipe PILOT SUNSTAY",
+      "purchaseOrderNo": "PILOT SUNSTAY GEN2",
+      "additionalLabels": [
+      ],
+      "salesOrderItem": "000030",
+      "impactStrength": "IK09",
+      "ingressProtectionCode": "IP65",
+      "driverDimmingInterface": "None",
+      "luminaireTechnology": "LED",
+      "lightSourceColor": "White",
+      "lifetimeHours": 100000,
+      "minDimmingPercentage": 10
+    },
+    "DOCUMENT": [
+    ],
+    "PRODUCTIMG": {
+      "src": "/app/assets/img/default.png"
+    },
+    "EXPLVIEWIMG": {
+      "src": "/app/assets/img/default.png"
+    }
+  },
+  "registration": {
+    "registered": true,
+    "location": {
+      "latitude": 13.0453725,
+      "longitude": 77.6218462
+    },
+    "firstRegistration": "2022-11-29",
+    "firstRegisteredBy": "api",
+    "projectId": "d55135d7-6b73-4750-a213-1489438d0834",
+    "projectName": "pro 36"
+  },
+  "group": {
+    "groupId": "GRP.-NIarW3BDqzl6XMOQDvn",
+    "groupName": "group Android edited"
+  },
+  "notes": [
+    {
+      "id": "a3834750-6c95-11ed-991b-55be8cfe1a61",
+      "text": "dummy",
+      "lastModified": "2022-11-25T07:49:06Z"
+    },
+    {
+      "id": "8e953810-7c82-11ed-a9b2-d581beb5cc8d",
+      "text": "installation in progress ",
+      "lastModified": "2022-12-15T14:12:49Z"
+    },
+    {
+      "id": "97e3e100-7c82-11ed-9b03-a1d0e5600f75",
+      "text": "installation done",
+      "lastModified": "2022-12-15T14:13:05Z"
+    }
+  ],
+  "photos": [
+    {
+      "id": "ef4bd5c0-70a6-11ed-a85a-8b13b14c5023",
+      "link": "/servicetag/A538.130196889.0008/photos/ef4bd5c0-70a6-11ed-a85a-8b13b14c5023.jpg",
+      "created": "2022-11-30T12:03:00Z",
+      "thumbnailLink": "/servicetag/A538.130196889.0008/photos/ef4bd5c0-70a6-11ed-a85a-8b13b14c5023_th.jpg"
+    }
+  ],
+  "driverConfigurable": false,
+  "entitled": true,
+  "luminaireId": "123",
+  "deviceInfos": [
+    {
+      "DeviceName": "ZJS425 CCC BLE IND LED SOLAR MODULE EX",
+      "DeviceVersion": null,
+      "HardwareVersion": null,
+      "FirmwareRevision": null,
+      "Type": "BLE",
+      "TwelveNc": "919515898385",
+      "DeviceIdentifier": "E6:89:4E:62:F4:A7"
+    }
+  ],
+  "drivers": {
+    "deviceIdentifier": "",
+    "driverName": "",
+    "driver12NC": ""
+  },
+  "sunStayConfig": {
+    "PIRSensorPresent": false,
+    "PIRSensorDelayTime": 45,
+    "material": "000823090509142",
+    "RTEActive": true,
+    "duskLevel": 12,
+    "operation": "SolarBLEConfiguration",
+    "BLETwelveNc": "919515898385",
+    "batteryType": 2,
+    "hybridActive": false,
+    "BLEDeviceName": "ZJS425 CCC BLE IND LED SOLAR MODULE EX",
+    "systemWattage": 9,
+    "dimmingProfile": [
+      {
+        "dimmingLevel": 15,
+        "noMotionLevel": 20,
+        "duration": 600
+      },
+      {
+        "dimmingLevel": 85,
+        "noMotionLevel": 61,
+        "duration": 5
+      },
+      {
+        "dimmingLevel": 72,
+        "noMotionLevel": 42,
+        "duration": 5
+      },
+      {
+        "dimmingLevel": 41,
+        "noMotionLevel": 17,
+        "duration": 210
+      },
+      {
+        "dimmingLevel": 49,
+        "noMotionLevel": 16,
+        "duration": 240
+      }
+    ],
+    "RTENumberOfDays": 4,
+    "batteryCapacity": 18,
+    "LEDStringVoltage": 45.2,
+    "duskDawnHysteresis": 2,
+    "RTETriggerPercentage": 73,
+    "batteryNominalVoltage": 25,
+    "batteryDisconnectLevel": 23,
+    "batteryTypeDescription": "LFP",
+    "macAddress": "E6:89:4E:62:F4:A7",
+    "isHybridAvailable": false
+  },
+  "d4i": {
+    "gtin": "8718696906774",
+    "contentFormatId": 3,
+    "productionDateYY": 22,
+    "productionDateWW": 26,
+    "devicetag": "Philips VGP725;IAA538.130196889.0008",
+    "luminaireColor": "DGR",
+    "nominalMaximumACMainsVoltage": null,
+    "nominalMinimumACMainsVoltage": null,
+    "systemLumen": 2000,
+    "systemPower": 25,
+    "colorRenderingIndex": 70,
+    "lightColor": 4000
+  },
+  "servicetag": "A538.130196889.0008",
+  "ref": {
+    "type": "urn:services:signify:com:servicetag:luminaire",
+    "link": "/api/servicetag/v18.1/luminaires/A538.130196889.0008"
+  }
+}
+ 
+15:21:21.255 [main] INFO  com.intuit.karate - [print] 
+Philips 
+15:21:21.259 [main] INFO  com.intuit.karate - [print] [
+  {
+    "id": "a3834750-6c95-11ed-991b-55be8cfe1a61",
+    "text": "dummy",
+    "lastModified": "2022-11-25T07:49:06Z"
+  },
+  {
+    "id": "8e953810-7c82-11ed-a9b2-d581beb5cc8d",
+    "text": "installation in progress ",
+    "lastModified": "2022-12-15T14:12:49Z"
+  },
+  {
+    "id": "97e3e100-7c82-11ed-9b03-a1d0e5600f75",
+    "text": "installation done",
+    "lastModified": "2022-12-15T14:13:05Z"
+  }
+]
+ 
+15:21:21.262 [main] INFO  com.intuit.karate - [print] dummy 
+15:21:21.282 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/hooksFeatures/after-scenario.feature - call by tag at line 8: productInfo
+15:21:21.302 [main] INFO  com.intuit.karate - [print] Cleaning DB records after execution of product info scenario 
+15:21:21.310 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/hooksFeatures/after-feature.feature - call by tag at line 8: productInfo
+15:21:21.320 [main] INFO  com.intuit.karate - [print] Cleaning DB after execution of product info feature 
+15:21:21.709 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:features/GetProductInfo.feature
+15:21:21.733 [main] INFO  com.intuit.karate - Environment selected is -  Test 
+15:21:21.768 [main] INFO  com.intuit.karate - [print] 
+Request Body :- 
+15:21:21.770 [main] INFO  com.intuit.karate - [print] {
+  "name": "Collage5396",
+  "country": "India",
+  "city": "Bangalore",
+  "timezone": [
+    "Asia/Kolkata"
+  ],
+  "startDate": "2022-12-13T17:21:35.793Z",
+  "endDate": "2022-12-18T17:21:35.793Z",
+  "description": "installation",
+  "assetQuantity": 1,
+  "installers": [
+    "om.mishra1@signify.com"
+  ]
+}
+ 
+15:21:22.601 [main] INFO  com.intuit.karate - [print] 
+ Response :-  
+15:21:22.606 [main] INFO  com.intuit.karate - [print] {
+  "id": "e257e60b-02da-46b9-8007-30ec486ed130",
+  "name": "Collage5396",
+  "country": "India",
+  "city": "Bangalore",
+  "timezone": "{\"Asia/Kolkata\"}",
+  "startDate": "2022-12-13T17:21:35.793Z",
+  "endDate": "2022-12-18T17:21:35.793Z",
+  "description": "installation",
+  "totalQuantity": 1,
+  "installedQuantity": 0,
+  "installers": [
+    "om.mishra1@signify.com"
+  ],
+  "creator": "rupesh.gaud@signify.com"
+}
+ 
+15:21:23.398 [main] INFO  com.intuit.karate - [print] 
+ Response :-  
+15:21:23.401 [main] INFO  com.intuit.karate - [print] {
+  "id": "e257e60b-02da-46b9-8007-30ec486ed130",
+  "name": "Collage5396",
+  "country": "India",
+  "city": "Nagpur",
+  "timezone": "{\"Asia/Kolkata\"}",
+  "startDate": "2022-12-13T17:21:35.793Z",
+  "endDate": "2022-12-18T17:21:35.793Z",
+  "description": "installation",
+  "totalQuantity": 1,
+  "installedQuantity": 0,
+  "installers": [
+  ],
+  "creator": "rupesh.gaud@signify.com"
+}
+ 
+15:21:23.579 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:features/UpdateProject.feature
+16:49:30.469 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': Test
+16:49:31.725 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1671189571724
+16:49:33.066 [main] INFO  com.intuit.karate - Environment selected is -  Test 
+16:49:33.298 [main] INFO  com.intuit.karate - [print] 
+Request Body :- 
+16:49:33.306 [main] INFO  com.intuit.karate - [print] {
+  "name": "Collage5897",
+  "country": "India",
+  "city": "Bangalore",
+  "timezone": [
+    "Asia/Kolkata"
+  ],
+  "startDate": "2022-12-13T17:21:35.793Z",
+  "endDate": "2022-12-18T17:21:35.793Z",
+  "description": "installation",
+  "assetQuantity": 1,
+  "installers": [
+    "om.mishra1@signify.com"
+  ]
+}
+ 
+16:49:35.293 [main] ERROR com.intuit.karate - classpath:features/CreateProject.feature:27
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 1269, url: https://integration.servicetag.services.signify.com/api/projects/v18.1/create?key=apikey, response: 
+
+classpath:features/CreateProject.feature:27
+16:49:38.337 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 3 (0 remaining) classpath:features/CreateProject.feature
+16:49:38.411 [main] INFO  com.intuit.karate - Environment selected is -  Test 
+16:49:38.437 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('file:src/test/java/hooksFeatures/before-scenario.feature@productInfo')
+16:49:38.440 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/hooksFeatures/before-scenario.feature - call by tag at line 8: productInfo
+16:49:38.466 [main] INFO  com.intuit.karate - [print] Required data inserted successfully 
+16:49:38.529 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('file:src/test/java/hooksFeatures/before-scenario.feature@productInfo')
+16:49:38.545 [main] INFO  com.intuit.karate - [print] sending request 
+16:49:39.308 [main] ERROR com.intuit.karate - classpath:features/GetProductInfo.feature:29
+Then status 200
+status code was: 403, expected: 200, response time in milliseconds: 744, url: https://integration.servicetag.services.signify.com/api/servicetag/v18.1/servicetag/A538.130196889.0008?key=b5hj34l15b134b5134kb5hjl34b624hjl, response: 
+
+classpath:features/GetProductInfo.feature:29
+16:49:39.333 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/hooksFeatures/after-scenario.feature - call by tag at line 8: productInfo
+16:49:39.407 [main] INFO  com.intuit.karate - [print] Cleaning DB records after execution of product info scenario 
+16:49:39.428 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/hooksFeatures/after-feature.feature - call by tag at line 8: productInfo
+16:49:39.461 [main] INFO  com.intuit.karate - [print] Cleaning DB after execution of product info feature 
+16:49:39.948 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 3 (0 remaining) classpath:features/GetProductInfo.feature
+16:49:39.987 [main] INFO  com.intuit.karate - Environment selected is -  Test 
+16:49:40.023 [main] INFO  com.intuit.karate - [print] 
+Request Body :- 
+16:49:40.024 [main] INFO  com.intuit.karate - [print] {
+  "name": "Collage540",
+  "country": "India",
+  "city": "Bangalore",
+  "timezone": [
+    "Asia/Kolkata"
+  ],
+  "startDate": "2022-12-13T17:21:35.793Z",
+  "endDate": "2022-12-18T17:21:35.793Z",
+  "description": "installation",
+  "assetQuantity": 1,
+  "installers": [
+    "om.mishra1@signify.com"
+  ]
+}
+ 
+16:49:40.754 [main] ERROR com.intuit.karate - classpath:features/UpdateProject.feature:26
+Then status 201
+status code was: 403, expected: 201, response time in milliseconds: 715, url: https://integration.servicetag.services.signify.com/api/projects/v18.1/create?key=apikey, response: 
+
+classpath:features/UpdateProject.feature:26
+16:49:40.910 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 3 of 3 (0 remaining) classpath:features/UpdateProject.feature
+16:51:16.410 [main] INFO  com.intuit.karate.Runner - using system property 'karate.env': Test
+16:51:17.447 [main] INFO  com.intuit.karate.Suite - backed up existing 'target/karate-reports' dir to: target/karate-reports_1671189677446
+16:51:18.802 [main] INFO  com.intuit.karate - Environment selected is -  Test 
+16:51:19.013 [main] INFO  com.intuit.karate - [print] 
+Request Body :- 
+16:51:19.020 [main] INFO  com.intuit.karate - [print] {
+  "name": "Collage5835",
+  "country": "India",
+  "city": "Bangalore",
+  "timezone": [
+    "Asia/Kolkata"
+  ],
+  "startDate": "2022-12-13T17:21:35.793Z",
+  "endDate": "2022-12-18T17:21:35.793Z",
+  "description": "installation",
+  "assetQuantity": 1,
+  "installers": [
+    "om.mishra1@signify.com"
+  ]
+}
+ 
+16:51:20.992 [main] INFO  com.intuit.karate - [print] 
+ Response :-  
+16:51:20.993 [main] INFO  com.intuit.karate - [print] {
+  "id": "2a57739f-ce36-4536-8b1b-a4e7f4c04124",
+  "name": "Collage5835",
+  "country": "India",
+  "city": "Bangalore",
+  "timezone": "{\"Asia/Kolkata\"}",
+  "startDate": "2022-12-13T17:21:35.793Z",
+  "endDate": "2022-12-18T17:21:35.793Z",
+  "description": "installation",
+  "totalQuantity": 1,
+  "installedQuantity": 0,
+  "installers": [
+    "om.mishra1@signify.com"
+  ],
+  "creator": "rupesh.gaud@signify.com"
+}
+ 
+16:51:23.635 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:features/CreateProject.feature
+16:51:23.707 [main] INFO  com.intuit.karate - Environment selected is -  Test 
+16:51:23.731 [main] INFO  com.intuit.karate - >> lock acquired, begin callonce: read('file:src/test/java/hooksFeatures/before-scenario.feature@productInfo')
+16:51:23.733 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/hooksFeatures/before-scenario.feature - call by tag at line 8: productInfo
+16:51:23.764 [main] INFO  com.intuit.karate - [print] Required data inserted successfully 
+16:51:23.773 [main] INFO  com.intuit.karate - << lock released, cached callonce: read('file:src/test/java/hooksFeatures/before-scenario.feature@productInfo')
+16:51:23.787 [main] INFO  com.intuit.karate - [print] sending request 
+16:51:25.255 [main] INFO  com.intuit.karate - [print] getting response
+ 
+16:51:25.260 [main] INFO  com.intuit.karate - [print] {
+  "luminaire": {
+    "PRODUCT": {
+      "productName": "Sunstay Pro",
+      "configurationDesignation": "VGP725 HYB 30mA 740 PSU SRT SRB",
+      "luminaireColor": "DGR",
+      "lightColor": 4000,
+      "optics": "M65",
+      "numberOfLeds": 32,
+      "systemPower": 25,
+      "electricalSafetyClass": "III",
+      "colorRenderingIndex": 70,
+      "maxAmbientTemperatureRating": 50,
+      "brandName": "Philips",
+      "productFamily": "VGP725",
+      "time": "2022-07-06",
+      "salesOrderNumber": "0007814000",
+      "material": "000823090509142",
+      "spigotType": "60S",
+      "driverType": "PSU",
+      "systemLumen": 2000,
+      "sourceLumen": 2000,
+      "ltuneCode": "8VFXOPESBABT",
+      "lumenPerWatt": 80,
+      "avgSystemPower": 25,
+      "endSystemPower": 25,
+      "pONumber": "David Príncipe PILOT SUNSTAY",
+      "purchaseOrderNo": "PILOT SUNSTAY GEN2",
+      "additionalLabels": [
+      ],
+      "salesOrderItem": "000030",
+      "impactStrength": "IK09",
+      "ingressProtectionCode": "IP65",
+      "driverDimmingInterface": "None",
+      "luminaireTechnology": "LED",
+      "lightSourceColor": "White",
+      "lifetimeHours": 100000,
+      "minDimmingPercentage": 10
+    },
+    "DOCUMENT": [
+    ],
+    "PRODUCTIMG": {
+      "src": "/app/assets/img/default.png"
+    },
+    "EXPLVIEWIMG": {
+      "src": "/app/assets/img/default.png"
+    }
+  },
+  "registration": {
+    "registered": true,
+    "location": {
+      "latitude": 13.0453725,
+      "longitude": 77.6218462
+    },
+    "firstRegistration": "2022-11-29",
+    "firstRegisteredBy": "api",
+    "projectId": "d55135d7-6b73-4750-a213-1489438d0834",
+    "projectName": "pro 36"
+  },
+  "group": {
+    "groupId": "GRP.-NIarW3BDqzl6XMOQDvn",
+    "groupName": "group Android edited"
+  },
+  "notes": [
+    {
+      "id": "a3834750-6c95-11ed-991b-55be8cfe1a61",
+      "text": "dummy",
+      "lastModified": "2022-11-25T07:49:06Z"
+    },
+    {
+      "id": "8e953810-7c82-11ed-a9b2-d581beb5cc8d",
+      "text": "installation in progress ",
+      "lastModified": "2022-12-15T14:12:49Z"
+    },
+    {
+      "id": "97e3e100-7c82-11ed-9b03-a1d0e5600f75",
+      "text": "installation done",
+      "lastModified": "2022-12-15T14:13:05Z"
+    }
+  ],
+  "photos": [
+    {
+      "id": "ef4bd5c0-70a6-11ed-a85a-8b13b14c5023",
+      "link": "/servicetag/A538.130196889.0008/photos/ef4bd5c0-70a6-11ed-a85a-8b13b14c5023.jpg",
+      "created": "2022-11-30T12:03:00Z",
+      "thumbnailLink": "/servicetag/A538.130196889.0008/photos/ef4bd5c0-70a6-11ed-a85a-8b13b14c5023_th.jpg"
+    }
+  ],
+  "driverConfigurable": false,
+  "entitled": true,
+  "luminaireId": "123",
+  "deviceInfos": [
+    {
+      "DeviceName": "ZJS425 CCC BLE IND LED SOLAR MODULE EX",
+      "DeviceVersion": null,
+      "HardwareVersion": null,
+      "FirmwareRevision": null,
+      "Type": "BLE",
+      "TwelveNc": "919515898385",
+      "DeviceIdentifier": "E6:89:4E:62:F4:A7"
+    }
+  ],
+  "drivers": {
+    "deviceIdentifier": "",
+    "driverName": "",
+    "driver12NC": ""
+  },
+  "sunStayConfig": {
+    "PIRSensorPresent": false,
+    "PIRSensorDelayTime": 45,
+    "material": "000823090509142",
+    "RTEActive": true,
+    "duskLevel": 12,
+    "operation": "SolarBLEConfiguration",
+    "BLETwelveNc": "919515898385",
+    "batteryType": 2,
+    "hybridActive": false,
+    "BLEDeviceName": "ZJS425 CCC BLE IND LED SOLAR MODULE EX",
+    "systemWattage": 9,
+    "dimmingProfile": [
+      {
+        "dimmingLevel": 15,
+        "noMotionLevel": 20,
+        "duration": 600
+      },
+      {
+        "dimmingLevel": 85,
+        "noMotionLevel": 61,
+        "duration": 120
+      },
+      {
+        "dimmingLevel": 72,
+        "noMotionLevel": 42,
+        "duration": 1440
+      },
+      {
+        "dimmingLevel": 41,
+        "noMotionLevel": 17,
+        "duration": 240
+      },
+      {
+        "dimmingLevel": 49,
+        "noMotionLevel": 16,
+        "duration": 120
+      }
+    ],
+    "RTENumberOfDays": 4,
+    "batteryCapacity": 18,
+    "LEDStringVoltage": 45.2,
+    "duskDawnHysteresis": 2,
+    "RTETriggerPercentage": 73,
+    "batteryNominalVoltage": 25,
+    "batteryDisconnectLevel": 23,
+    "batteryTypeDescription": "LFP",
+    "macAddress": "E6:89:4E:62:F4:A7",
+    "isHybridAvailable": false
+  },
+  "d4i": {
+    "gtin": "8718696906774",
+    "contentFormatId": 3,
+    "productionDateYY": 22,
+    "productionDateWW": 26,
+    "devicetag": "Philips VGP725;IAA538.130196889.0008",
+    "luminaireColor": "DGR",
+    "nominalMaximumACMainsVoltage": null,
+    "nominalMinimumACMainsVoltage": null,
+    "systemLumen": 2000,
+    "systemPower": 25,
+    "colorRenderingIndex": 70,
+    "lightColor": 4000
+  },
+  "servicetag": "A538.130196889.0008",
+  "ref": {
+    "type": "urn:services:signify:com:servicetag:luminaire",
+    "link": "/api/servicetag/v18.1/luminaires/A538.130196889.0008"
+  }
+}
+ 
+16:51:25.281 [main] INFO  com.intuit.karate - [print] 
+Philips 
+16:51:25.287 [main] INFO  com.intuit.karate - [print] [
+  {
+    "id": "a3834750-6c95-11ed-991b-55be8cfe1a61",
+    "text": "dummy",
+    "lastModified": "2022-11-25T07:49:06Z"
+  },
+  {
+    "id": "8e953810-7c82-11ed-a9b2-d581beb5cc8d",
+    "text": "installation in progress ",
+    "lastModified": "2022-12-15T14:12:49Z"
+  },
+  {
+    "id": "97e3e100-7c82-11ed-9b03-a1d0e5600f75",
+    "text": "installation done",
+    "lastModified": "2022-12-15T14:13:05Z"
+  }
+]
+ 
+16:51:25.290 [main] INFO  com.intuit.karate - [print] dummy 
+16:51:25.340 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/hooksFeatures/after-scenario.feature - call by tag at line 8: productInfo
+16:51:25.420 [main] INFO  com.intuit.karate - [print] Cleaning DB records after execution of product info scenario 
+16:51:25.430 [main] INFO  c.intuit.karate.core.FeatureRuntime - src/test/java/hooksFeatures/after-feature.feature - call by tag at line 8: productInfo
+16:51:25.484 [main] INFO  com.intuit.karate - [print] Cleaning DB after execution of product info feature 
+16:51:26.085 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 3 (0 remaining) classpath:features/GetProductInfo.feature
+16:51:26.117 [main] INFO  com.intuit.karate - Environment selected is -  Test 
+16:51:26.152 [main] INFO  com.intuit.karate - [print] 
+Request Body :- 
+16:51:26.155 [main] INFO  com.intuit.karate - [print] {
+  "name": "Collage5953",
+  "country": "India",
+  "city": "Bangalore",
+  "timezone": [
+    "Asia/Kolkata"
+  ],
+  "startDate": "2022-12-13T17:21:35.793Z",
+  "endDate": "2022-12-18T17:21:35.793Z",
+  "description": "installation",
+  "assetQuantity": 1,
+  "installers": [
+    "om.mishra1@signify.com"
+  ]
+}
+ 
+16:51:26.897 [main] INFO  com.intuit.karate - [print] 
+ Response :-  
+16:51:26.898 [main] INFO  com.intuit.karate - [print] {
+  "id": "ba8fc1b2-5354-4a63-8315-de4ea4fcecdc",
+  "name": "Collage5953",
+  "country": "India",
+  "city": "Bangalore",
+  "timezone": "{\"Asia/Kolkata\"}",
+  "startDate": "2022-12-13T17:21:35.793Z",
+  "endDate": "2022-12-18T17:21:35.793Z",
+  "description": "installation",
+  "totalQuantity": 1,
+  "installedQuantity": 0,
+  "installers": [
+    "om.mishra1@signify.com"
+  ],
+  "creator": "rupesh.gaud@signify.com"
+}
+ 
+16:51:27.652 [main] INFO  com.intuit.karate - [print] 
+ Response :-  
+16:51:27.653 [main] INFO  com.intuit.karate - [print] {
+  "id": "ba8fc1b2-5354-4a63-8315-de4ea4fcecdc",
+  "name": "Collage5953",
+  "country": "India",
+  "city": "Nagpur",
+  "timezone": "{\"Asia/Kolkata\"}",
+  "startDate": "2022-12-13T17:21:35.793Z",
+  "endDate": "2022-12-18T17:21:35.793Z",
+  "description": "installation",
+  "totalQuantity": 1,
+  "installedQuantity": 0,
+  "installers": [
+  ],
+  "creator": "rupesh.gaud@signify.com"
+}
+ 
+16:51:27.821 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:features/UpdateProject.feature

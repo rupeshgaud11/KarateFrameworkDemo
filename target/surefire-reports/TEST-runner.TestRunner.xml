@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="runner.TestRunner" time="13.34" errors="0" skipped="0">
+  <properties>
+    <property name="JOB_NAME" value="KarateFramework"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/KarateFramework/4/display/redirect?page=tests"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="/Users/rupesh/.jenkins"/>
+    <property name="PATH" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/bin:/usr/bin:/bin:/usr/sbin:/sbin"/>
+    <property name="HUDSON_SERVER_COOKIE" value="98593e9b818718bc"/>
+    <property name="POM_ARTIFACTID" value="KarateFrameworkDemo"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="KarateFrameworkDemo"/>
+    <property name="NODE_LABELS" value="built-in"/>
+    <property name="java.runtime.version" value="11.0.13+8"/>
+    <property name="user.name" value="rupesh"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="user.language" value="en"/>
+    <property name="JOB_BASE_NAME" value="KarateFramework"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/KarateFramework/4/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="TMPDIR" value="/var/folders/vr/sr9tv2sj5_s5zllpb5k19hb40000gn/T/"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/lib"/>
+    <property name="GIT_PREVIOUS_SUCCESSFUL_COMMIT" value="5356809b2b5ba32131d2f146df16f44e1e8bcd7e"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="XPC_FLAGS" value="0x0"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="built-in"/>
+    <property name="BUILD_ID" value="4"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="SHELL" value="/bin/zsh"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/Users/rupesh/Downloads/apache-maven-3.8.6/conf"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="IN"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="11.6.1"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/KarateFramework/4/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="sun.font.fontmanager" value="sun.font.CFontManager"/>
+    <property name="path.separator" value=":"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/KarateFramework/4/display/redirect?page=artifacts"/>
+    <property name="java.vm.version" value="11.0.13+8"/>
+    <property name="GIT_PREVIOUS_COMMIT" value="5356809b2b5ba32131d2f146df16f44e1e8bcd7e"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/KarateFramework/display/redirect"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="LOGNAME" value="rupesh"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="HOME" value="/Users/rupesh"/>
+    <property name="POM_GROUPID" value="KarateFrameworkDemo"/>
+    <property name="user.home" value="/Users/rupesh"/>
+    <property name="BUILD_TAG" value="jenkins-KarateFramework-4"/>
+    <property name="JENKINS_SERVER_COOKIE" value="98593e9b818718bc"/>
+    <property name="XPC_SERVICE_NAME" value="homebrew.mxcl.jenkins-lts"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.library.path" value="/Users/rupesh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="maven.home" value="/Users/rupesh/Downloads/apache-maven-3.8.6"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /Users/Rupesh/Downloads/apache-maven-3.8.6/ /Users/rupesh/.jenkins/war/WEB-INF/lib/remoting-3071.v7e9b_0dc08466.jar /Users/rupesh/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.14.jar /Users/rupesh/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.14.jar 58162"/>
+    <property name="java.class.path" value="/Users/rupesh/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.14.jar:/Users/Rupesh/Downloads/apache-maven-3.8.6/boot/plexus-classworlds-2.6.0.jar:/Users/Rupesh/Downloads/apache-maven-3.8.6/conf/logging"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="JAVA_MAIN_CLASS_56945" value="executable.Main"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="jansi.mode" value="strip"/>
+    <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/bin"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="M2_HOME" value="/Users/Rupesh/Downloads/apache-maven-3.8.6/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="CI" value="true"/>
+    <property name="java.io.tmpdir" value="/var/folders/vr/sr9tv2sj5_s5zllpb5k19hb40000gn/T/"/>
+    <property name="HUDSON_HOME" value="/Users/rupesh/.jenkins"/>
+    <property name="PATH+MAVEN" value="/Users/Rupesh/Downloads/apache-maven-3.8.6//bin"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/KarateFramework/4/"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.c8E0KES7H6/Listeners"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
+    <property name="user.dir" value="/Users/rupesh/eclipse-workspace/KarateFrameworkDemo"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/KarateFramework/"/>
+    <property name="MAVEN_HOME" value="/Users/Rupesh/Downloads/apache-maven-3.8.6/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="4"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="GIT_BRANCH" value="origin/main"/>
+    <property name="GIT_COMMIT" value="fe52eb047541a438750125af8f76510d122c3e76"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="maven3.interceptor" value="/Users/rupesh/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.14.jar"/>
+    <property name="WORKSPACE_TMP" value="/Users/rupesh/.jenkins/workspace/KarateFramework@tmp"/>
+    <property name="WORKSPACE" value="/Users/rupesh/.jenkins/workspace/KarateFramework"/>
+    <property name="maven3.interceptor.common" value="/Users/rupesh/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.14.jar"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="java.vendor.version" value="Temurin-11.0.13+8"/>
+    <property name="USER" value="rupesh"/>
+    <property name="GIT_URL" value="https://github.com/rupeshgaud11/KarateFrameworkDemo.git"/>
+  </properties>
+  <testcase classname="runner.TestRunner" name="parallel" time="13.34"/>
+</testsuite>
