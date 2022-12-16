@@ -1,5 +1,8 @@
 Feature: Product Information Feature
 
+#Background is used with steps or series of steps that are commons to all tests in the feature file.
+#The steps which are defined under background will run before each and every scenario for a feature file.
+
 Background:
 
 # CALLING BEFORE SCENARIO: DATA INSERTION

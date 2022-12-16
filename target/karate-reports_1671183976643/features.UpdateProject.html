@@ -22,20 +22,20 @@
       <img src="karate-logo.svg" alt="Karate"/>
     </a>
     <div class="nav-count">
-      <div id="nav-pass" class="bg-success">1</div>
-      <div id="nav-fail" class="bg-danger">0</div>
+      <div id="nav-pass" class="bg-success">0</div>
+      <div id="nav-fail" class="bg-danger">1</div>
     </div>
   </div>
   <div id="nav-type">
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2022-12-16 03:16:27 PM</div>
+    <div>2022-12-16 03:15:46 PM</div>
   </div>        
 </div>
 
         <div class="nav-container">
-          <div class="nav-item passed">
+          <div class="nav-item failed">
             <a href="#[1:9]"><span>[1:9]</span> <span>Update Project</span></a>
           </div>
         </div>
@@ -61,8 +61,8 @@
                 <span></span>
               </div>
             </div>
-            <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>1989</span>
+            <div class="scenario-time failed">
+              <span>ms:</span>&nbsp;<span>807</span>
             </div>
           </div>
           <div class="step-row">
@@ -92,7 +92,7 @@
         <span>*</span>&nbsp;<span>def javaUtil = Java.type(&#39;customJavaCode.CustomCode&#39;);</span>
       </div>
     </div>
-    <div class="time-cell passed">9</div>
+    <div class="time-cell passed">17</div>
   </div>
 
    
@@ -101,7 +101,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.6">15:16:25.265 Environment selected is -  Test 
+  <div class="preformatted" data-parent="0.6">15:15:45.412 Environment selected is -  Test 
 </div>   
 
   
@@ -184,7 +184,7 @@
         <span>*</span>&nbsp;<span>def key = {key:apikey}</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -240,7 +240,7 @@
         <span>*</span>&nbsp;<span>def randomNum = javaUtil.getRandomNum()</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell passed">2</div>
   </div>
 
    
@@ -268,7 +268,7 @@
         <span>*</span>&nbsp;<span>set requestBody.name = requestBody.name + randomNum</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell passed">5</div>
   </div>
 
    
@@ -296,7 +296,7 @@
         <span>*</span>&nbsp;<span>print &#39;\nRequest Body :-&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -305,7 +305,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.19">15:16:25.296 [print] 
+  <div class="preformatted" data-parent="0.19">15:15:45.453 [print] 
 Request Body :- 
 </div>   
 
@@ -326,7 +326,7 @@ Request Body :-
         <span>*</span>&nbsp;<span>print requestBody</span>
       </div>
     </div>
-    <div class="time-cell passed">2</div>
+    <div class="time-cell passed">3</div>
   </div>
 
    
@@ -335,8 +335,8 @@ Request Body :-
 
   
 
-  <div class="preformatted" data-parent="0.20">15:16:25.299 [print] {
-  &quot;name&quot;: &quot;Collage5677&quot;,
+  <div class="preformatted" data-parent="0.20">15:15:45.456 [print] {
+  &quot;name&quot;: &quot;Collage5857&quot;,
   &quot;country&quot;: &quot;India&quot;,
   &quot;city&quot;: &quot;Bangalore&quot;,
   &quot;timezone&quot;: [
@@ -426,7 +426,7 @@ Request Body :-
         <span>And</span>&nbsp;<span>request requestBody</span>
       </div>
     </div>
-    <div class="time-cell passed">6</div>
+    <div class="time-cell passed">0</div>
   </div>
 
    
@@ -454,7 +454,7 @@ Request Body :-
         <span>When</span>&nbsp;<span>method POST</span>
       </div>
     </div>
-    <div class="time-cell passed">1099</div>
+    <div class="time-cell passed">768</div>
   </div>
 
    
@@ -476,13 +476,46 @@ Request Body :-
 
   <div class="step-row">
     <div class="step-container" id="0.26">
-      <div class="step-ref passed">26</div>
+      <div class="step-ref failed">26</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell failed">
         <span>Then</span>&nbsp;<span>status 201</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell failed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.26">15:15:46.229 classpath:features/UpdateProject.feature:26
+Then status 201
+status code was: 409, expected: 201, response time in milliseconds: 748, url: https://integration.servicetag.services.signify.com/api/projects/v18.1/create?key=apikey, response: 
+{&quot;name&quot;:&quot;ConflictError&quot;,&quot;message&quot;:&quot;Project with this name already exists&quot;,&quot;status&quot;:409}
+classpath:features/UpdateProject.feature:26
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.27">
+      <div class="step-ref skipped">27</div>
+      
+      <div class="step-cell skipped">
+        <span>And</span>&nbsp;<span>print &#39;\n Response :- &#39;</span>
+      </div>
+    </div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -503,44 +536,14 @@ Request Body :-
   
 
   <div class="step-row">
-    <div class="step-container" id="0.27">
-      <div class="step-ref passed">27</div>
-      
-      <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>print &#39;\n Response :- &#39;</span>
-      </div>
-    </div>
-    <div class="time-cell passed">9</div>
-  </div>
-
-   
-  
-  
-
-  
-
-  <div class="preformatted" data-parent="0.27">15:16:26.417 [print] 
- Response :-  
-</div>   
-
-  
-
-</div>
-</div>
-          <div><div>
-  
-
-  
-
-  <div class="step-row">
     <div class="step-container" id="0.28">
-      <div class="step-ref passed">28</div>
+      <div class="step-ref skipped">28</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">20</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -549,24 +552,7 @@ Request Body :-
 
   
 
-  <div class="preformatted" data-parent="0.28">15:16:26.438 [print] {
-  &quot;id&quot;: &quot;5b546511-afd6-4545-8fa5-26d7fae21d33&quot;,
-  &quot;name&quot;: &quot;Collage5677&quot;,
-  &quot;country&quot;: &quot;India&quot;,
-  &quot;city&quot;: &quot;Bangalore&quot;,
-  &quot;timezone&quot;: &quot;{\&quot;Asia/Kolkata\&quot;}&quot;,
-  &quot;startDate&quot;: &quot;2022-12-13T17:21:35.793Z&quot;,
-  &quot;endDate&quot;: &quot;2022-12-18T17:21:35.793Z&quot;,
-  &quot;description&quot;: &quot;installation&quot;,
-  &quot;totalQuantity&quot;: 1,
-  &quot;installedQuantity&quot;: 0,
-  &quot;installers&quot;: [
-    &quot;om.mishra1@signify.com&quot;
-  ],
-  &quot;creator&quot;: &quot;rupesh.gaud@signify.com&quot;
-}
- 
-</div>   
+     
 
   
 
@@ -579,13 +565,13 @@ Request Body :-
 
   <div class="step-row">
     <div class="step-container" id="0.30">
-      <div class="step-ref passed">30</div>
+      <div class="step-ref skipped">30</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>*</span>&nbsp;<span>def projectId = response.id</span>
       </div>
     </div>
-    <div class="time-cell passed">12</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -607,13 +593,13 @@ Request Body :-
 
   <div class="step-row">
     <div class="step-container" id="0.32">
-      <div class="step-ref passed">32</div>
+      <div class="step-ref skipped">32</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>*</span>&nbsp;<span>path updateProjectPath + projectId</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -635,13 +621,13 @@ Request Body :-
 
   <div class="step-row">
     <div class="step-container" id="0.34">
-      <div class="step-ref passed">34</div>
+      <div class="step-ref skipped">34</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>*</span>&nbsp;<span>set requestBody.city = &#39;Nagpur&#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">3</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -663,13 +649,13 @@ Request Body :-
 
   <div class="step-row">
     <div class="step-container" id="0.36">
-      <div class="step-ref passed">36</div>
+      <div class="step-ref skipped">36</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>Given</span>&nbsp;<span>header Authorization = token</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -691,13 +677,13 @@ Request Body :-
 
   <div class="step-row">
     <div class="step-container" id="0.37">
-      <div class="step-ref passed">37</div>
+      <div class="step-ref skipped">37</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>params key</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -719,13 +705,13 @@ Request Body :-
 
   <div class="step-row">
     <div class="step-container" id="0.38">
-      <div class="step-ref passed">38</div>
+      <div class="step-ref skipped">38</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>request requestBody</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -747,13 +733,13 @@ Request Body :-
 
   <div class="step-row">
     <div class="step-container" id="0.39">
-      <div class="step-ref passed">39</div>
+      <div class="step-ref skipped">39</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>When</span>&nbsp;<span>method PUT</span>
       </div>
     </div>
-    <div class="time-cell passed">796</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -775,13 +761,13 @@ Request Body :-
 
   <div class="step-row">
     <div class="step-container" id="0.40">
-      <div class="step-ref passed">40</div>
+      <div class="step-ref skipped">40</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>Then</span>&nbsp;<span>status 200</span>
       </div>
     </div>
-    <div class="time-cell passed">0</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -803,13 +789,13 @@ Request Body :-
 
   <div class="step-row">
     <div class="step-container" id="0.41">
-      <div class="step-ref passed">41</div>
+      <div class="step-ref skipped">41</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>print &#39;\n Response :- &#39;</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -818,9 +804,7 @@ Request Body :-
 
   
 
-  <div class="preformatted" data-parent="0.41">15:16:27.259 [print] 
- Response :-  
-</div>   
+     
 
   
 
@@ -833,13 +817,13 @@ Request Body :-
 
   <div class="step-row">
     <div class="step-container" id="0.42">
-      <div class="step-ref passed">42</div>
+      <div class="step-ref skipped">42</div>
       
-      <div class="step-cell passed">
+      <div class="step-cell skipped">
         <span>And</span>&nbsp;<span>print response</span>
       </div>
     </div>
-    <div class="time-cell passed">4</div>
+    <div class="time-cell skipped">0</div>
   </div>
 
    
@@ -848,23 +832,7 @@ Request Body :-
 
   
 
-  <div class="preformatted" data-parent="0.42">15:16:27.264 [print] {
-  &quot;id&quot;: &quot;5b546511-afd6-4545-8fa5-26d7fae21d33&quot;,
-  &quot;name&quot;: &quot;Collage5677&quot;,
-  &quot;country&quot;: &quot;India&quot;,
-  &quot;city&quot;: &quot;Nagpur&quot;,
-  &quot;timezone&quot;: &quot;{\&quot;Asia/Kolkata\&quot;}&quot;,
-  &quot;startDate&quot;: &quot;2022-12-13T17:21:35.793Z&quot;,
-  &quot;endDate&quot;: &quot;2022-12-18T17:21:35.793Z&quot;,
-  &quot;description&quot;: &quot;installation&quot;,
-  &quot;totalQuantity&quot;: 1,
-  &quot;installedQuantity&quot;: 0,
-  &quot;installers&quot;: [
-  ],
-  &quot;creator&quot;: &quot;rupesh.gaud@signify.com&quot;
-}
- 
-</div>   
+     
 
   
 
